@@ -2,7 +2,7 @@ import { createApp } from 'vue';
 import App from './App.vue';
 import './index.css';
 import { setApiUrl } from './modules/api';
-import VueRouter from '@/router';
+import VueRouter from './router';
 import NavBar from '@/components/NavBar.vue';
 
 const getRuntimeConfig = async () => {
